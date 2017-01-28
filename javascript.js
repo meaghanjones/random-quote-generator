@@ -1,5 +1,5 @@
 var quotes = [
-'Life is about making an impact, not making an income. –Kevin Kruse'
+'Life is about making an impact, not making an income. –Kevin Kruse',
 'Whatever the mind of man can conceive and believe, it can achieve. –Napoleon Hill',
 'Strive not to be a success, but rather to be of value. –Albert Einstein',
 'Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.  –Robert Frost',
@@ -33,3 +33,8 @@ var quotes = [
 'People often say that motivation doesn\’t last. Well, neither does bathing.  That\’s why we recommend it daily. –Zig Ziglar',
 'Life shrinks or expands in proportion to one\’s courage. –Anais Nin'
 ]
+
+function newQuote() {
+  var randomNumber = Math.floor(Math.random() * (quotes.length));
+  document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
