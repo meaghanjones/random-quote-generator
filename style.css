@@ -1,3 +1,7 @@
+footer {
+  padding-top: 20px;
+  color: #00FF99;
+}
 html,
 body,
 .my-container {
@@ -6,14 +10,25 @@ body,
   background-color: #CCFF33;
   font-family: 'Francois One', sans-serif;
   text-align: center;
+  overflow: hidden;
+  color: white;
 }
 
 .my-container2 {
-  width: 78%;
-  height: 78%;
-  margin-top: 20%;
+  width: 70%;
+  height: 70%;
+  margin-top: 25%;
   margin: auto;
   background-color: #00FF99;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+}
+
+#main-text {
+margin-left: auto;
+margin-right: auto;
+padding-left: 5%;
+padding-right: 5%;
+position: relative;
+top: 40%;
 }

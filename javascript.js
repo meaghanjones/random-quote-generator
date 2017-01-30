@@ -35,11 +35,18 @@ var quotes = [
 ]
 
 $(document).ready(function() {
+  
 
 function random() {
   randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     $('#quote-container').append(randomQuote);
     }
+
+    $(".quote_button").click(function(){
+      $('#quote-container').empty();
+       random();
+
+     });
 
   $(".quote_button").click(function(){
     $('#quote-container').empty();
