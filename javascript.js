@@ -42,11 +42,11 @@ function random() {
     }
 
   $(".quote_button").click(function(){
+    $('#quote-container').empty();
      random();
    });
 
-$(".twitter-share-button").click(function(){
-   $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
- });
-
+  $(".twitter-share-button").click(function(){
+     $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
+   });
  });

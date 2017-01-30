@@ -1,0 +1,19 @@
+html,
+body,
+.my-container {
+  width: 100%;
+  height: 100%;
+  background-color: #CCFF33;
+  font-family: 'Francois One', sans-serif;
+  text-align: center;
+}
+
+.my-container2 {
+  width: 78%;
+  height: 78%;
+  margin-top: 20%;
+  margin: auto;
+  background-color: #00FF99;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
